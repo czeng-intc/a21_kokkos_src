@@ -13,7 +13,7 @@ endif()
 
 # # Timing for compilation
 # set_property(GLOBAL PROPERTY RULE_LAUNCH_COMPILE "time -v")
-# set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK "time -v")
+set_property(GLOBAL PROPERTY RULE_LAUNCH_LINK "time -v")
 
 GET_CMAKE_PROPERTY(_variableNames VARIABLES)
 SET(KOKKOS_GIVEN_VARIABLES)
